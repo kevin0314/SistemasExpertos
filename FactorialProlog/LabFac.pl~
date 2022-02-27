@@ -1,0 +1,4 @@
+factorial(0,1).
+
+
+factorial(E,S):- X is E-1,factorial(X,S1),S is E*S1.
